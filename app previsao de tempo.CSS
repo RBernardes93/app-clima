@@ -1,0 +1,117 @@
+/* APP PREVISÃO DE TEMPO CSS */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.wallpaperscraft.com/image/single/lake_mountains_landscape_962366_1600x900.jpg");
+
+}
+
+.caixa-maior{
+    width: 95%;
+    max-width: 420px;
+    background-color: #000000;
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #FFFFFF;
+    width: calc(100% - 100px);
+
+}
+
+.lupa{
+    height: 40px;
+    border-radius: 30px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7c7c7c6b;
+}
+
+.caixa-media{
+    margin-top: 20px;
+}
+
+.caixa-menor{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    height: 70px;
+    text-align: center;
+}
+
+.icone{
+    background-image: #7c7c7c;
+    border-radius: 20px;
+    margin-top: 20px;
+
+
+}
+    
+
+    
+       
+
+.temp{
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.descricao{
+    color: #FFFFFF;
+    margin-left: 10px;
+    text-transform: capitalize; /* Deixa a primeira letra (MAIÚSCULA) */
+}
+
+
+
+p{
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+
+h1{
+    color: white;
+    font-size: 28px;
+}
+
+.umidades{
+    margin-bottom: 30px;
+}
